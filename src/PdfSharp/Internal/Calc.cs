@@ -79,6 +79,9 @@ namespace PdfSharp.Internal
                 case PageSize.A5:
                     return new XSize(420, 595);
 
+                case PageSize.A6:
+                    return new XSize(148, 105);
+
                 case PageSize.B4:
                     return new XSize(729, 1032);
 
